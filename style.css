@@ -31,6 +31,9 @@
   color: black;
   font-size: 20px;
 }
+.menuIcon {
+  display: none;
+}
 .headerBtn {
   border: 1px solid #191a23;
   padding: 20px 30px;
@@ -423,9 +426,6 @@
   gap: 40px;
   font-size: 18px;
 }
-.menuIcon {
-  display: none;
-}
 
 @media (max-width: 768px) {
   .header {
@@ -436,6 +436,7 @@
   }
   .menuIcon {
     display: block;
+    width: 45px;
     cursor: pointer;
   }
 
